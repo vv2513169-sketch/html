@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script>
+
+function showAlert(){
+alert("Alert output");
+}
+
+function writeDocument(){
+document.write("Document Write Output");
+}
+
+function showInnerHTML(){
+document.getElementById("output").innerHTML="InnerHTML Output";
+}
+
+function showConsole(){
+console.log("Console Output");
+}
+
+</script>
+
+</head>
+
+<body>
+
+<button onclick="showAlert()">Alert</button>
+
+<button onclick="writeDocument()">Document Write</button>
+
+<button onclick="showInnerHTML()">InnerHTML</button>
+
+<p id="output"></p>
+
+<button onclick="showConsole()">Console</button>
+
+</body>
+</html>
